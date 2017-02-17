@@ -1,0 +1,18 @@
+
+brew cask install dropbox;
+brew cask install 1password;
+
+brew cask install google-chrome;
+brew cask install chrome-devtools;
+brew cask install firefox;
+
+brew cask install virtualbox;
+brew cask install virtualbox-extension-pack;
+brew cask install vagrant;
+brew cask install docker;
+brew cask install docker-toolbox;
+
+brew cask install textwrangler;
+brew cask install dash;
+
+brew cask install phpstorm;
