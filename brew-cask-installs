@@ -16,3 +16,6 @@ brew cask install textwrangler;
 brew cask install dash;
 
 brew cask install phpstorm;
+
+
+brew cask install kindle;
