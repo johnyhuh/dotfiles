@@ -19,3 +19,4 @@ brew cask install phpstorm;
 
 
 brew cask install kindle;
+brew cask install vlc;
