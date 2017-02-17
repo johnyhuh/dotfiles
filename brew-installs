@@ -1,3 +1,5 @@
+brew install coreutils;
+
 
 brew cask install dropbox;
 brew cask install 1password;
