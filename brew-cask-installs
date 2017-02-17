@@ -14,10 +14,9 @@ brew cask install docker-toolbox;
 
 brew cask install textwrangler;
 brew cask install dash;
-
 brew cask install phpstorm;
 
-
+brew cask install itsycal;
 brew cask install kindle;
 brew cask install vlc;
 brew cask install spotify;
