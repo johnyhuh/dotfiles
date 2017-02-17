@@ -12,6 +12,8 @@ brew cask install vagrant;
 brew cask install docker;
 brew cask install docker-toolbox;
 
+brew cask install postgres;
+
 brew cask install textwrangler;
 brew cask install dash;
 brew cask install phpstorm;
