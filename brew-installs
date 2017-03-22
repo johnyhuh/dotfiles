@@ -1,4 +1,5 @@
 brew install coreutils;
+brew install screen;
 brew tap homebrew/dupes;
 brew install --with-default-names grep;
 brew install --with-default-names gnu-sed;
