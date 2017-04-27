@@ -27,8 +27,8 @@ IN="\[\033[0m\]"
 #export PS1="$NM$BWhite\u $Yellow\w$NM $BGreen\$(parse_git_branch)$BRed*$IN: "
 export PS1="$NM$Blue\u@\h $BGreen\w$NM$Yellow\$(__git_ps1 \" -[%s]\")$IN\n: "
 
-if [ "$TERM" != "dumb" ]; then
-    export LS_OPTIONS='--color=auto'
-    eval `gdircolors ~/.dir_colors`
-fi
+#if [ "$TERM" != "dumb" ]; then
+#    export LS_OPTIONS='--color=auto'
+#    eval `gdircolors ~/.dir_colors`
+#fi
 
