@@ -1,9 +1,7 @@
-export PATH="/usr/local/bin:/usr/local/sbin:/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
-#export XDEBUG_CONFIG="idekey=PHPSTORM remote_host=localhost remote_port=9000"
-export XDEBUG_CONFIG="remote_enable=0"
-export COMPOSER_PROCESS_TIMEOUT=1200
+# Prompt
+#if [ -f ~/.bash_prompt] ; then source ~/.bash_prompt; fi
+# Terminal colors (after installing GNU coreutils)
 
-# Terminal colours (after installing GNU coreutils)
 # Regular Colors
 Black='\e[0;30m'        # Black
 Red='\e[0;31m'          # Red
@@ -24,13 +22,12 @@ BPurple='\e[1;35m'      # Purple
 BCyan='\e[1;36m'        # Cyan
 BWhite='\e[1;37m'       # White
 
-NM="\[\033[0;38m\]" #means no background and white lines
+NM="\[\033[0;38m\]"     # no background and white lines
 IN="\[\033[0m\]"
 
 #export PS1="$NM[ $HI\u $HII\h $SI\w$NM ] $IN"
-#export PS1="$NM$HI\u $SI\w$NM $PURPLE\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)$IN: "
-
-export PS1="$NM$Blue\u@\h $BGreen\w$NM$Yellow\$(__git_ps1 \" -[%s]\")$IN\n: "
+#export PS1="$NM$BWhite\u $Yellow\w$NM $BGreen\$(parse_git_branch)$BRed*$IN: "
+export PS1="$NM$Cyan\u $BGreen\w$NM$Yellow\$(__git_ps1 \" -[%s]\")$IN\n: "
 
 if [ "$TERM" != "dumb" ]; then
     export LS_OPTIONS='--color=auto'
@@ -43,3 +40,10 @@ if [ -f ~/.bash_aliases ] ; then source ~/.bash_aliases; fi
 # GIT
 if [ -f ~/.bash_git ] ; then source ~/.bash_git; fi
 
+export PATH="/usr/local/sbin:$PATH"
+export PTOOLSPATH=/usr/local/opt/phalcon-devtools/
+export PATH=$PATH:/usr/local/opt/phalcon-devtools
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+. $(brew --prefix)/etc/bash_completion
+fi
