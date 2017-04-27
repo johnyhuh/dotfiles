@@ -1,6 +1,9 @@
 brew install coreutils;
 brew install screen;
 brew tap homebrew/dupes;
+brew tap homebrew/versions
+brew tap homebrew/homebrew-php
+
 brew install --with-default-names grep;
 brew install --with-default-names gnu-sed;
 brew install postgresql;
