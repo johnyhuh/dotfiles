@@ -1,3 +1,4 @@
+# General
 brew update && brew upgrade;
 brew install coreutils;
 brew install screen;
@@ -7,8 +8,8 @@ brew tap homebrew/homebrew-php
 
 brew install --with-default-names grep;
 brew install --with-default-names gnu-sed;
-brew install postgresql;
 
+brew cask install textwrangler;
 brew cask install dropbox;
 brew cask install 1password;
 
@@ -16,20 +17,19 @@ brew cask install google-chrome;
 brew cask install chrome-devtools;
 brew cask install firefox;
 
+brew cask install istat-menus;
+brew cask install spotify;
+brew cask install itsycal;
+brew cask install kindle;
+brew cask install vlc;
+
+# Development
+brew install postgresql;
 brew cask install virtualbox;
 brew cask install virtualbox-extension-pack;
 brew cask install vagrant;
 brew cask install docker;
 brew cask install docker-toolbox;
-
 brew cask install postgres;
-
-brew cask install textwrangler;
 brew cask install dash;
 brew cask install phpstorm;
-
-brew cask install istat-menus;
-brew cask install itsycal;
-brew cask install kindle;
-brew cask install vlc;
-brew cask install spotify;
