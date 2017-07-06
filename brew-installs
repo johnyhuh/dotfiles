@@ -1,4 +1,4 @@
-brew update;
+brew update && brew upgrade;
 brew install coreutils;
 brew install screen;
 brew tap homebrew/dupes;
