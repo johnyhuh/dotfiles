@@ -26,6 +26,7 @@ brew cask install vlc;
 # Development
 brew install git;
 brew install composer;
+brew install nodejs;
 brew install postgresql;
 brew cask install virtualbox;
 brew cask install virtualbox-extension-pack;
@@ -38,3 +39,5 @@ brew cask install phpstorm;
 
 # PHP7
 brew install php71;
+brew install phpdocumentor;
+
