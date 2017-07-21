@@ -15,9 +15,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 
 ## Add Taps
-brew tap homebrew/dupes
+```brew tap homebrew/dupes
 brew tap homebrew/versions
-brew tap homebrew/php
+brew tap homebrew/php```
 
 
 
