@@ -40,4 +40,4 @@ brew cask install phpstorm;
 # PHP7
 brew install php71;
 brew install phpdocumentor;
-
+brew install php-cs-fixer php-code-sniffer phpmd;
