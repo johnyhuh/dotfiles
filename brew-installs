@@ -9,7 +9,7 @@ brew tap homebrew/homebrew-php
 brew install --with-default-names grep;
 brew install --with-default-names gnu-sed;
 
-brew cask install textwrangler;
+brew cask install atom;
 brew cask install dropbox;
 brew cask install 1password;
 
