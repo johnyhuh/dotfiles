@@ -297,7 +297,10 @@ brew install --HEAD homebrew/php/php71-yaml
 brew install php71-mustache
 brew install --HEAD homebrew/php/php71-igbinary
 ```
-
+## Install PHP72
+```
+brew install php72 --with-postgresql --with-mssql --with-imap --with-homebrew-curl
+```
 ## Install PHP56
 ```
 brew install php56 --with-fpm --with-mysql --with-postgresql --with-mssql --with-imap --with-homebrew-openssl --without-snmp --without-apache --with-homebrew-curl
