@@ -16,9 +16,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ## Add Taps
 ```
-brew tap homebrew/dupes
-brew tap homebrew/versions
-brew tap homebrew/php
+brew tap homebrew/homebrew-php
 ```
 
 
@@ -281,6 +279,11 @@ xcode-select --install
 brew install brew-php-switcher
 ```
 
+## Install PHP72
+```
+brew install libzip
+brew install php72 --with-homebrew-curl --with-mssql --with-postgresql
+```
 
 ## Install PHP71
 ```
