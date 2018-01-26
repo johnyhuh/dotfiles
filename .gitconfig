@@ -1,6 +1,6 @@
 [user]
-	name = John Huh
-	email = johnyhuh@gmail.com
+	name = {{FULLNAME}}
+	email = {{EMAIL}}
 [core]
 	excludesfile = /Users/jhuh/.gitignore_global
 [difftool "sourcetree"]
