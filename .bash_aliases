@@ -7,11 +7,8 @@ alias grep='grep --color=auto -in'
 alias ..='cd ..'
 alias l.='ls -d .*' 2>/dev/null
 
-#Illuminate
-alias vcd='cd /Volumes/server-local/Illuminate/dev-vagrant'
-alias vu='cd /Volumes/server-local/Illuminate/dev-vagrant && vagrant up'
-
 #OTHER
+alias ducks='du -cks * | sort -rn | head'
 alias flushdns='sudo killall -HUP mDNSResponder'
 
 #SERVICES
