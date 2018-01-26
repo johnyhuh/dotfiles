@@ -36,8 +36,9 @@ brew cask install docker-toolbox;
 brew cask install postgres;
 brew cask install dash;
 brew cask install phpstorm;
+brew cask install postman;
 
 # PHP7
-brew install php71;
+brew install php72;
 brew install phpdocumentor;
 brew install php-cs-fixer php-code-sniffer phpmd;
