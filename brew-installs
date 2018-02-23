@@ -2,21 +2,23 @@
 brew update && brew upgrade;
 brew install coreutils;
 brew install screen;
-brew tap homebrew/dupes;
-brew tap homebrew/versions
+
 brew tap homebrew/php
+brew tap caskroom/cask
 
 brew install --with-default-names grep;
 brew install --with-default-names gnu-sed;
 
-brew cask install atom;
+# Utils
 brew cask install dropbox;
 brew cask install 1password;
 
+# Browsers
 brew cask install google-chrome;
 brew cask install chrome-devtools;
 brew cask install firefox;
 
+# Apps
 brew cask install istat-menus;
 brew cask install spotify;
 brew cask install itsycal;
@@ -24,6 +26,7 @@ brew cask install kindle;
 brew cask install vlc;
 
 # Development
+brew cask install atom;
 brew install git;
 brew install composer;
 brew install nodejs;
@@ -42,3 +45,6 @@ brew cask install postman;
 brew install php72;
 brew install phpdocumentor;
 brew install php-cs-fixer php-code-sniffer phpmd;
+
+# Go
+brew install go
