@@ -37,6 +37,7 @@ brew cask install postgres;
 brew cask install dash;
 brew cask install phpstorm;
 brew cask install postman;
+brew cask install pgadmin4;
 
 # ATD
 brew cask install virtualbox;
