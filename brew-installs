@@ -31,15 +31,17 @@ brew install git;
 brew install composer;
 brew install nodejs;
 brew install postgresql;
-brew cask install virtualbox;
-brew cask install virtualbox-extension-pack;
-brew cask install vagrant;
 brew cask install docker;
 brew cask install docker-toolbox;
 brew cask install postgres;
 brew cask install dash;
 brew cask install phpstorm;
 brew cask install postman;
+
+# ATD
+brew cask install virtualbox;
+brew cask install virtualbox-extension-pack;
+brew cask install vagrant;
 
 # PHP7
 brew install php72;
