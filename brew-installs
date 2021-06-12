@@ -35,7 +35,7 @@ brew install postgresql;
 brew install docker;
 brew install docker-toolbox;
 brew install postgres;
-brew install dash;
+brew install homebrew/cask/dash;
 brew install postman;
 brew install pgadmin4;
 
