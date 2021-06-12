@@ -32,7 +32,7 @@ brew install git;
 brew install composer;
 brew install nodejs;
 brew install postgresql;
-brew install docker;
+brew install homebrew/cask/docker;
 brew install docker-toolbox;
 brew install postgres;
 brew install homebrew/cask/dash;
