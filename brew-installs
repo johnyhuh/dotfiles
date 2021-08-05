@@ -3,8 +3,8 @@ brew update && brew upgrade;
 brew install coreutils;
 brew install screen;
 
-brew install --with-default-names grep;
-brew install --with-default-names gnu-sed;
+brew install grep;
+brew install gnu-sed;
 
 # Utils
 brew install dropbox;
@@ -18,6 +18,7 @@ brew install chrome-devtools;
 brew install firefox;
 
 # Apps
+brew install --cask slack;
 brew install istat-menus;
 brew install spotify;
 brew install itsycal;
