@@ -37,6 +37,9 @@ brew install visual-studio-code;
 brew install atom;
 brew install homebrew/cask/dash;
 
+# Cloud
+brew install kubectx
+
 # DB
 brew install postgresql;
 brew install postgres;
