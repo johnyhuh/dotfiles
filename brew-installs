@@ -26,24 +26,30 @@ brew install kindle;
 brew install vlc;
 
 # Development
+brew install git;
+brew install homebrew/cask/docker;
+brew install docker-toolbox;
+brew install postman;
+
+# Development Editors
 brew install phpstorm;
 brew install visual-studio-code;
 brew install atom;
-brew install git;
-brew install composer;
-brew install nodejs;
-brew install postgresql;
-brew install homebrew/cask/docker;
-brew install docker-toolbox;
-brew install postgres;
 brew install homebrew/cask/dash;
-brew install postman;
+
+# DB
+brew install postgresql;
+brew install postgres;
 brew install pgadmin4;
 
 # Go
 brew install go;
 
+#Node
+brew install nodejs;
+
 # PHP
 brew install php;
+brew install composer;
 brew install phpdocumentor;
 brew install php-cs-fixer php-code-sniffer phpmd;
