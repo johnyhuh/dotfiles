@@ -7,3 +7,6 @@
 
 # Mac Keyboard repeat
 `defaults write -g ApplePressAndHoldEnabled -bool false`
+
+# Switch PHP to 5.6
+`brew unlink php && brew link --overwrite --force php@5.6`
