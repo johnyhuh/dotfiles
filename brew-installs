@@ -15,7 +15,7 @@ brew install rectangle;
 brew install microsoft-edge;
 brew install google-chrome;
 brew install chrome-devtools;
-brew install firefox;
+brew install --cask firefox;
 
 # Apps
 brew install --cask slack;
