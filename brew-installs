@@ -2,44 +2,43 @@
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update;
+
+# First...
 brew install iterm2;
-brew install screen;
-
-brew install grep;
-brew install fortune;
-
 
 # Apps
-brew install --cask slack;
+brew install 1password;
 brew install --cask alfred;
+brew install rectangle;
 brew install istat-menus;
 brew install spotify;
 brew install itsycal;
 brew install kindle;
 brew install vlc;
-# Utils
+brew install --cask slack;
 brew install dropbox;
-brew install 1password;
-brew install rectangle;
 
 # Browsers
-brew install microsoft-edge;
-brew install google-chrome;
-brew install chrome-devtools;
 brew install --cask firefox;
+brew install google-chrome;
+brew install microsoft-edge;
+
+# Shell
+brew install screen;
+brew install grep;
+brew install fortune;
 
 # Development
 brew install git;
-brew install homebrew/cask/docker;
-brew install docker-toolbox;
+brew install docker;
 brew install postman;
 
 # Development Editors
 brew install visual-studio-code;
-brew install phpstorm;
+
 
 # Cloud
-brew install kubectx
+brew install kubectx;
 
 # DB
 brew install postgresql;
