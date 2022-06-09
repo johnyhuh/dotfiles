@@ -30,6 +30,7 @@ brew install fortune;
 
 # Development
 brew install git;
+brew install --cask docker
 brew install docker;
 brew install postman;
 
