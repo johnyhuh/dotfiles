@@ -46,6 +46,7 @@ brew install kubectx;
 brew install postgresql;
 brew install postgres;
 brew install pgadmin4;
+brew install --cask azure-data-studio;
 
 # Go
 brew install go;
