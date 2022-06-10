@@ -5,7 +5,7 @@ brew update;
 
 # First...
 brew install iterm2;
-brew install zsh;
+# Go to https://ohmyz.sh/#install
 
 # Apps
 brew install 1password;
