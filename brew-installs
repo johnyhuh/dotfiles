@@ -5,6 +5,7 @@ brew update;
 
 # First...
 brew install iterm2;
+brew install zsh;
 
 # Apps
 brew install 1password;
