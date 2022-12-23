@@ -19,6 +19,7 @@ brew install kindle;
 brew install vlc;
 brew install --cask slack;
 brew install dropbox;
+brew install openvpn;
 
 # Browsers
 brew install --cask firefox;
