@@ -13,6 +13,7 @@ brew install --cask alfred;
 brew install rectangle;
 brew install istat-menus;
 brew install spotify;
+brew install --cask tidal;
 brew install itsycal;
 brew install kindle;
 brew install vlc;
