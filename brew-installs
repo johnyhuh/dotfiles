@@ -44,8 +44,7 @@ brew install visual-studio-code;
 brew install kubectx;
 
 # DB
-brew install postgresql;
-brew install postgres;
+brew install postgresql@14;
 brew install pgadmin4;
 brew install --cask azure-data-studio;
 
