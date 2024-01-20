@@ -9,20 +9,21 @@ brew install iterm2;
 
 # Apps
 brew install 1password;
-brew install --cask alfred;
+brew install alfred;
 brew install rectangle;
-brew install istat-menus;
+brew install stats;
+brew install alt-tab;
 brew install spotify;
-brew install --cask tidal;
+brew install tidal;
 brew install itsycal;
 brew install kindle;
 brew install vlc;
-brew install --cask slack;
+brew install slack;
 brew install dropbox;
 brew install openvpn;
 
 # Browsers
-brew install --cask firefox;
+brew install firefox;
 brew install google-chrome;
 brew install microsoft-edge;
 
@@ -34,27 +35,23 @@ brew install fortune;
 
 # Development
 brew install git;
-brew install --cask docker;
 brew install docker;
 brew install postman;
 
 # Development Editors
 brew install visual-studio-code;
 
-
-# Cloud
-brew install kubectx;
-
 # DB
 brew install postgresql@14;
 brew install pgadmin4;
-brew install --cask azure-data-studio;
+brew install azure-data-studio;
 
 # Go
 brew install go;
 
-#Node
+# Node
 brew install nodejs;
+brew install nvm;
 
 # PHP
 brew install php;
