@@ -51,7 +51,7 @@ brew install go;
 
 # Node
 brew install nodejs;
-brew install nvm;
+# nvm - https://github.com/nvm-sh/nvm#installing-and-updating
 
 # PHP
 brew install php;
